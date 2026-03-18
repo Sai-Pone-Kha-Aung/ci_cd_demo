@@ -47,6 +47,9 @@ E2E tests drive a real Chromium browser to simulate full user flows (page load, 
 
 ```bash
 npm run test:e2e
+
+# Single test file
+npx playwright test e2e/counter.spec.js
 ```
 
 Test files: `e2e/`

@@ -34,7 +34,7 @@ test.describe('Counter — E2E', () => {
   })
 
   test('− button is disabled at 0', async ({ page }) => {
-    await expect(page.getByRole('button', { name: '−' })).toBeDisabled()
+    await expect(page.getByRole('button', { name: '+' })).toBeDisabled()
   })
 
   test('Reset button resets count to 0', async ({ page }) => {
